@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register - PrepMate AI</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>PrepMate AI</h1>
+        <p>Create your account</p>
+    </header>
+
+    <main class="auth-container">
+
+        <div class="auth-card">
+            <h2>Join PrepMate!</h2>
+            <p>Create an account to start preparing.</p>
+
+            <form action="/register" method="POST">
+
+                <label>Name</label>
+                <input type="text" name="name"
+                       placeholder="Enter your name" required>
+
+                <label>Email</label>
+                <input type="email" name="email"
+                       placeholder="Enter your email" required>
+
+                <label>Password</label>
+                <input type="password" name="password"
+                       placeholder="Create a password" required>
+
+                <button type="submit">Create Account</button>
+
+            </form>
+
+            <p>Already have an account?
+                <a href="login.html">Login here</a>
+            </p>
+
+        </div>
+
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+
+# Java build output
+bin/
+target/
+
+# Eclipse workspace metadata
+.metadata/
+.settings/
+
+# Environment and local secrets
+.env
+application-local.properties
+
+# Operating system files
+.DS_Store
+Thumbs.db

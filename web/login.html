@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login - PrepMate AI</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>PrepMate AI</h1>
+        <p>Your Interview Preparation Partner</p>
+    </header>
+
+    <main class="auth-container">
+
+        <div class="auth-card">
+            <h2>Welcome Back!</h2>
+            <p>Login to continue your preparation.</p>
+
+            <form action="/login" method="POST">
+
+                <label>Email</label>
+                <input type="email" name="email"
+                       placeholder="Enter your email" required>
+
+                <label>Password</label>
+                <input type="password" name="password"
+                       placeholder="Enter your password" required>
+
+                <button type="submit">Login</button>
+
+            </form>
+
+            <p>Don't have an account?
+                <a href="register.html">Register here</a>
+            </p>
+
+        </div>
+
+    </main>
+
+</body>
+</html>
